@@ -42,4 +42,4 @@ add_library(base STATIC
   Unicode.h
 )
 
-target_link_libraries(base PRIVATE arch)
+target_link_libraries(base PUBLIC arch)
